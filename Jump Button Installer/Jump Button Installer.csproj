@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>Jump_Button_Installer</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>jump.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="jump.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Underanalyzer">
+      <HintPath>..\..\..\..\Downloads\UndertaleModTool_v0.8.1.0-Windows\Underanalyzer.dll</HintPath>
+    </Reference>
+    <Reference Include="UndertaleModLib">
+      <HintPath>..\..\..\..\Downloads\UndertaleModTool_v0.8.1.0-Windows\UndertaleModLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
